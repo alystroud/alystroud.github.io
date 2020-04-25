@@ -149,6 +149,11 @@ a:hover {
   border-radius: 25px;
 }
 
+.titleRow {
+  margin-top: -18px;
+  background-color: #eee;
+}
+
 .titleRow h2 {
   padding: 15px 0;
 }
@@ -159,10 +164,16 @@ a:hover {
 
 .skills-list {
   text-align: center;
-  list-style-type: none;
 }
 
 .skills-list li {
-  text-decoration: none;
   display: inline;
+}
+
+.skills-list li:after {
+  content: " \00b7";
+}
+
+.skills-list li:last-child:after {
+  content: none;
 }
