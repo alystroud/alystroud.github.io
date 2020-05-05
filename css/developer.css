@@ -4,6 +4,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 10px;
 }
 
 .card-container {
@@ -42,7 +43,20 @@
   height: auto;
 }
 
+.project-name:hover {
+  text-decoration: underline;
+}
+
+.link-section {
+  display: flex;
+  justify-content: center;
+}
+
 .github {
-  width: 50px;
+  width: 40px;
   height: auto;
+}
+
+.github:hover {
+  color: white;
 }
