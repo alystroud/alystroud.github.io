@@ -164,6 +164,7 @@ a:hover {
 
 .skills-list {
   text-align: center;
+  padding: 0;
 }
 
 .skills-list li {
@@ -176,4 +177,8 @@ a:hover {
 
 .skills-list li:last-child:after {
   content: none;
+}
+
+.skill {
+  color: #800000;
 }
