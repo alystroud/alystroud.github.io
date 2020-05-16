@@ -88,16 +88,18 @@ a:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-  filter: grayscale(0%); /* FF 35+ */
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
 }
+
 .selfie:hover {
-  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-  filter: grayscale(100%); /* FF 35+ */
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .footer {
   flex-shrink: 0;
+  padding-bottom: 20px;
 }
 
 .fa {
@@ -181,4 +183,15 @@ a:hover {
 
 .skill {
   color: #800000;
+}
+
+
+.connect-icon img{
+  width: 40px;
+  height: auto;
+  margin: 0 10px;
+}
+
+.connect-icon img:hover {
+   filter: invert(0.5);
 }

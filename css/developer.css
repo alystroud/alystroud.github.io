@@ -10,7 +10,7 @@
 .card-container {
   margin: 20px;
   width: 250px;
-  height: 500px;
+  height: 525px;
   perspective: 250px;
 }
 
@@ -35,7 +35,7 @@
 .back {
   margin-left: -100px;
   transform: rotateY(180deg);
-  padding: 10px;
+  padding: 0 10px 10px 10px;
 }
 
 .project-screenshot {
@@ -55,8 +55,4 @@
 .github {
   width: 40px;
   height: auto;
-}
-
-.github:hover {
-  color: white;
 }
